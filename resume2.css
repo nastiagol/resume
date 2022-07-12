@@ -1,0 +1,92 @@
+body{
+  padding: 30px;
+  background-color: #f3e8ca;
+
+}
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  color:#2F336D;
+  margin-bottom: 0.25cm;
+}
+
+h2{
+  color: #333333;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1cm;
+}
+h3{
+  color:#2F336D;
+}
+
+a{
+  color:#2F336D;
+}
+
+section{
+  margin-bottom: 2em;
+}
+
+.cv{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contacts{
+  margin-bottom: 2em;
+}
+.contact{
+  display: flex;
+
+}
+
+.contact__value{
+  color: #000;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.contact__value.a {color: #000;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.contact__type{
+  min-width: 90px;
+}
+
+.btn{
+ 
+  font-size: 20px;
+  font-family: monospace;
+  color: #fff;
+  background: linear-gradient(to left, #000428, #004e92, #000428);
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-size: 200%;
+  transition: .5s; 
+  position:absolute;
+  top: 37%;
+  left: 72%;
+}
+
+.btn:hover{
+  background-position: rignt;
+}
+
+.experience{
+  display:flex;
+  margin-bottom: 2em;
+}
+.experience__date{
+  min-width: 250px;
+  margin-bottom: 1em;
+}
+.experience__name{
+  font-weight: bold;
+}
